@@ -5,7 +5,7 @@ let myMessage = prompt("Write your message here :");
 // The 'slice' property will trim your text to show only the first 140 characters. Any characters beyond that will not be displayed.
 messageLimit = myMessage.slice(0, 140);
 
-// Declaring variable characterLeft for count remaining character you type (character limit is 140). So 140 - myMessage.length.
+// Declaring variable characterLeft for count remaining character you type (character limit is 140).
 // myMessage.length is how many character you type.
 let characterLeft = 140 - messageLimit.length;
 
